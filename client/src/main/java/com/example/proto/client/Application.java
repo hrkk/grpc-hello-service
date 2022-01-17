@@ -1,4 +1,4 @@
-package com.example.workflow;
+package com.example.proto.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

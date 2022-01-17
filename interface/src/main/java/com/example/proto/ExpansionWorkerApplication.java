@@ -1,4 +1,4 @@
-package com.example;
+package com.example.proto;
 
 import lombok.extern.slf4j.Slf4j;
 import org.camunda.bpm.client.ExternalTaskClient;
