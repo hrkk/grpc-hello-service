@@ -1,4 +1,4 @@
-package com.example.proto.server;
+package com.example.server;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
