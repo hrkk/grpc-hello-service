@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class Application {
+public class ClientApplication {
 
     @GrpcClient("grpc-server")
     private MyServiceGrpc.MyServiceBlockingStub simpleStub;
 
     public static void main(String... args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
     // http://localhost:8082/?name=kasper
